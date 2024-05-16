@@ -58,7 +58,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
           <img src="../public/icons/Spring.svg" class="max-h-8 m-1" alt="Spring" title="Spring"/>
           <img src="../public/icons/FastAPI.svg" class="max-h-8 m-1" alt="FastAPI" title="FastAPI"/>
           <img src="../public/icons/Selenium.svg" class="max-h-8 m-1" alt="Selenium" title="Selenium"/>
-          <img src="../public/Tailwind%20CSS.svg" class="max-h-8 m-1" alt="Tailwind" title="Tailwind"/>
+          <img src="../public/icons/tailwind-css.svg" class="max-h-8 m-1" alt="Tailwind" title="Tailwind"/>
         </div>
 
         <div class="flex flex-wrap items-center" v-else>
