@@ -29,13 +29,16 @@
           self-taught
           software engineer, I am a zealous reader and learner and am always on the lookout for ways to upgrade my
           skills.<br/><br/>
+
+          Outside of work, if I'm not working on a personal project, you can find me bush walking in the Gold Coast
+          hinterland, at home watching movies and reading books, or dancing the night away at a live gig.
         </div>
       </div>
       <div class="border-b border-dotted my-5"/>
       <Skills/>
       <div class="border-b border-dotted my-5"/>
       <div class="flex">
-        <a href="https://www.linkedin.com/in/luke-boland-36110a5b/" class="mr-3 transition hover:text-slate-500">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/luke-boland-36110a5b/" class="mx-3">LinkedIn</a>
         <a href="https://github.com/furnapso/" class="mx-3">Github</a>
         <a href="https://github.com/furnapso/" class="mx-3">hello@lukeboland.au</a>
       </div>
