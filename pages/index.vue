@@ -15,7 +15,7 @@
       </div>
       <div class="border-b border-dotted my-5"/>
       <div class="flex">
-        <div class="text-sm mt-4">A dynamic and results-oriented Senior Software Engineer with a proven track record
+        <div class="text-sm">A dynamic and results-oriented Senior Software Engineer with a proven track record
           of driving
           innovation and delivering high-quality solutions in fast-paced environments. I excel in leveraging
           cutting-edge
