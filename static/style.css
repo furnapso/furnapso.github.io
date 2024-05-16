@@ -3,5 +3,5 @@ a {
 }
 
 h1 {
-    @apply font-mono text-lg
+    @apply font-mono text-lg tracking-tighter
 }
