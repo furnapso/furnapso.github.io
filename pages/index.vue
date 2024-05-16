@@ -6,7 +6,7 @@
       class="h-screen w-1/2 flex flex-col justify-center items-center text-slate-100 mx-auto animate__animated animate__fadeInDown">
     <div class="p-5 rounded border-slate-700">
       <div>
-        <img src="@/public/profile_pic_cropped.png" alt="Profile" class="max-h-32 ml-2 rounded-2xl float-right"/>
+        <img src="../public/profile_pic.png" alt="Profile" class="max-h-32 ml-2 rounded-2xl float-right"/>
         <h1 class="text-5xl font-mono pb-1">Hi, I'm Luke</h1>
         <div>I'm a software engineer in Brisbane, Australia.</div>
         <br/>

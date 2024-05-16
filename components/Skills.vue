@@ -23,15 +23,15 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
         <div class="flex flex-wrap items-center" v-if="icon">
-          <img src="../public/Java.svg" class="max-h-8 m-1" alt="Java" title="Java"/>
-          <img src="../public/Python.svg" class="max-h-8 m-1" alt="Python" title="Python"/>
-          <img src="../public/JavaScript.svg" class="max-h-8 m-1" alt="JavaScript" title="JavaScript"/>
-          <img src="../public/TypeScript.svg" class="max-h-8 m-1" alt="TypeScript" title="TypeScript"/>
-          <img src="../public/HTML5.svg" class="max-h-8 m-1" alt="HTML5" title="HTML5"/>
-          <img src="../public/CSS3.svg" class="max-h-8 m-1" alt="CSS3" title="CSS3"/>
-          <img src="../public/PowerShell.svg" class="max-h-8 m-1" alt="PowerShell" title="PowerShell"/>
-          <img src="../public/Bash.svg" class="max-h-8 m-1 invert" alt="Bash" title="Bash"/>
-          <img src="../public/SQL.svg" class="max-h-8 m-1 invert" alt="SQL" title="SQL">
+          <img src="../public/icons/Java.svg" class="max-h-8 m-1" alt="Java" title="Java"/>
+          <img src="../public/icons/Python.svg" class="max-h-8 m-1" alt="Python" title="Python"/>
+          <img src="../public/icons/JavaScript.svg" class="max-h-8 m-1" alt="JavaScript" title="JavaScript"/>
+          <img src="../public/icons/TypeScript.svg" class="max-h-8 m-1" alt="TypeScript" title="TypeScript"/>
+          <img src="../public/icons/HTML5.svg" class="max-h-8 m-1" alt="HTML5" title="HTML5"/>
+          <img src="../public/icons/CSS3.svg" class="max-h-8 m-1" alt="CSS3" title="CSS3"/>
+          <img src="../public/icons/PowerShell.svg" class="max-h-8 m-1" alt="PowerShell" title="PowerShell"/>
+          <img src="../public/icons/Bash.svg" class="max-h-8 m-1 invert" alt="Bash" title="Bash"/>
+          <img src="../public/icons/SQL.svg" class="max-h-8 m-1 invert" alt="SQL" title="SQL">
         </div>
 
         <div class="flex flex-wrap items-center" v-else>
@@ -52,12 +52,12 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
         <div class="flex items-center" v-if="icon">
-          <img src="../public/React.svg" class="max-h-8 m-1" alt="React" title="React"/>
-          <img src="../public/Vue.js.svg" class="max-h-8 m-1" alt="Vue.js" title="Vue.js"/>
-          <img src="../public/nuxtjs.svg" class="max-h-8 m-1" alt="Nuxt.js" title="Nuxt.js"/>
-          <img src="../public/Spring.svg" class="max-h-8 m-1" alt="Spring" title="Spring"/>
-          <img src="../public/FastAPI.svg" class="max-h-8 m-1" alt="FastAPI" title="FastAPI"/>
-          <img src="../public/Selenium.svg" class="max-h-8 m-1" alt="Selenium" title="Selenium"/>
+          <img src="../public/icons/React.svg" class="max-h-8 m-1" alt="React" title="React"/>
+          <img src="../public/icons/Vue.js.svg" class="max-h-8 m-1" alt="Vue.js" title="Vue.js"/>
+          <img src="../public/icons/nuxtjs.svg" class="max-h-8 m-1" alt="Nuxt.js" title="Nuxt.js"/>
+          <img src="../public/icons/Spring.svg" class="max-h-8 m-1" alt="Spring" title="Spring"/>
+          <img src="../public/icons/FastAPI.svg" class="max-h-8 m-1" alt="FastAPI" title="FastAPI"/>
+          <img src="../public/icons/Selenium.svg" class="max-h-8 m-1" alt="Selenium" title="Selenium"/>
           <img src="../public/Tailwind%20CSS.svg" class="max-h-8 m-1" alt="Tailwind" title="Tailwind"/>
         </div>
 
@@ -77,18 +77,18 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
         <div class="flex items-center flex-wrap" v-if="icon">
-          <img src="../public/Azure.svg" class="max-h-8 m-1" alt="Azure" title="Azure"/>
-          <img src="../public/azure-devops.svg" class="max-h-8 m-1" alt="Azure Devops" title="Azure Devops"/>
-          <img src="../public/Git.svg" class="max-h-8 m-1" alt="Git" title="Git"/>
-          <img src="../public/GitHub.svg" class="max-h-8 m-1" alt="Github" title="Github"/>
-          <img src="../public/Docker.svg" class="max-h-8 m-1" alt="Docker" title="Docker"/>
-          <img src="../public/Vite.js.svg" class="max-h-8 m-1" alt="Vite.js" title="Vite.js"/>
-          <img src="../public/Linux.svg" class="max-h-8 m-1" alt="Linux" title="Linux"/>
-          <img src="../public/uipath-3.svg" class="max-h-8 m-1" alt="UiPath" title="UiPath"/>
-          <img src="../public/Splunk.svg" class="max-h-12 m-1 invert" alt="Splunk" title="Splunk"/>
-          <img src="../public/new-relic.svg" class="max-h-8 m-1 invert grayscale" alt="New Relic" title="New Relic"/>
-          <img src="../public/digital-ocean.svg" class="max-h-8 m-1" alt="Digital Ocean" title="Digital Ocean"/>
-          <img src="../public/intellij.svg" class="max-h-8 m-1" alt="Intellij" title="Intellij"/>
+          <img src="../public/icons/Azure.svg" class="max-h-8 m-1" alt="Azure" title="Azure"/>
+          <img src="../public/icons/azure-devops.svg" class="max-h-8 m-1" alt="Azure Devops" title="Azure Devops"/>
+          <img src="../public/icons/Git.svg" class="max-h-8 m-1" alt="Git" title="Git"/>
+          <img src="../public/icons/GitHub.svg" class="max-h-8 m-1" alt="Github" title="Github"/>
+          <img src="../public/icons/Docker.svg" class="max-h-8 m-1" alt="Docker" title="Docker"/>
+          <img src="../public/icons/Vite.js.svg" class="max-h-8 m-1" alt="Vite.js" title="Vite.js"/>
+          <img src="../public/icons/Linux.svg" class="max-h-8 m-1" alt="Linux" title="Linux"/>
+          <img src="../public/icons/uipath-3.svg" class="max-h-8 m-1" alt="UiPath" title="UiPath"/>
+          <img src="../public/icons/Splunk.svg" class="max-h-12 m-1 invert" alt="Splunk" title="Splunk"/>
+          <img src="../public/icons/new-relic.svg" class="max-h-8 m-1 invert grayscale" alt="New Relic" title="New Relic"/>
+          <img src="../public/icons/digital-ocean.svg" class="max-h-8 m-1" alt="Digital Ocean" title="Digital Ocean"/>
+          <img src="../public/icons/intellij.svg" class="max-h-8 m-1" alt="Intellij" title="Intellij"/>
         </div>
 
         <div class="flex flex-wrap items-center" v-else>
