@@ -1,17 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/google-fonts", "@nuxtjs/tailwindcss", "@vesp/nuxt-fontawesome"],
+  modules: ["@nuxtjs/google-fonts", "@nuxtjs/tailwindcss", "@formkit/auto-animate/nuxt"],
   googleFonts: {
     families: {
-      Roboto: true,
       FiraCode: true,
-      "Radio Canada": true,
-    }
-  },
-  fontawesome: {
-    icons: {
-      solid: ['toggle-on']
+      "Radio Canada": true
     }
   }
 })
