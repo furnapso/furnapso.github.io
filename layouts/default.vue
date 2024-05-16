@@ -1,6 +1,11 @@
+<script setup lang="ts">
+useHead({
+  bodyAttrs: {
+    class: 'bg-slate-800'
+  }
+})
+</script>
+
 <template>
-  <div>
-    Layout: default
-    <slot />
-  </div>
+  <slot />
 </template>
