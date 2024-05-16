@@ -35,7 +35,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
         </div>
 
         <div class="flex flex-wrap items-center" v-else>
-          <ul class="columns-2 list-inside text-slate-400 text-sm">
+          <ul class="columns-2 text-slate-400 text-sm">
             <li>Java</li>
             <li>Python</li>
             <li>Javascript</li>
@@ -62,7 +62,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
         </div>
 
         <div class="flex flex-wrap items-center" v-else>
-          <ul class="columns-2 list-inside text-slate-400 text-sm">
+          <ul class="columns-2 text-slate-400 text-sm">
             <li>React</li>
             <li>Vue.js</li>
             <li>Nuxt.js</li>
@@ -92,7 +92,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
         </div>
 
         <div class="flex flex-wrap items-center" v-else>
-          <ul class="columns-2 list-inside text-slate-400 text-sm">
+          <ul class="columns-2 text-slate-400 text-sm">
             <li>Azure</li>
             <li>Azure Devops</li>
             <li>Git</li>
