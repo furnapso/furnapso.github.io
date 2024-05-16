@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
   fontawesome: {
     icons: {
-      brands: ['vuejs', 'js', 'html5', 'java', 'python', 'css3-alt', 'react']
+      solid: ['toggle-on']
     }
   }
 })
