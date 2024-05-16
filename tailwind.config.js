@@ -3,7 +3,11 @@ export default {
   content: [],
   theme: {
     extend: {},
+    fontFamily: {
+      'sans': ['Radio Canada', 'sans-serif'],
+      'mono': ['Fira Code']
+    }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
 
