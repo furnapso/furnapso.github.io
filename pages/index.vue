@@ -3,17 +3,17 @@
 
 <template>
   <div
-      class="h-screen w-1/2 flex flex-col justify-center items-center text-slate-100 mx-auto animate__animated animate__fadeInDown">
+      class="h-full w-full flex flex-col justify-center items-center text-slate-100 mx-auto animate__animated animate__fadeInDown">
     <div class="p-5">
-      <div class="pb-3">
+      <div class="">
         <img src="../public/profile_pic.png" alt="Profile" class="max-h-36 ml-2 rounded-2xl float-right"/>
-        <h1 class="text-5xl font-mono pb-1">Hi, I'm Luke</h1>
+        <h1 class="text-3xl font-mono pb-1">Hi, I'm Luke</h1>
         <div>I'm a software engineer in Brisbane, Australia.</div>
         <br/>
-        <div>Senior Software Engineer at Flight Centre Travel Group | Co-Founder and Lead Engineer at <a
+        <div>Senior Software Engineer at Flight Centre Travel Group<br/><br/>Co-Founder and Lead Engineer at <a
             href="https://groupt.au/">Groupt</a></div>
       </div>
-      <div class="border-b border-dotted my-5"/>
+      <hr class="border-dotted my-5"/>
       <div class="flex">
         <div class="text-sm">A dynamic and results-oriented Senior Software Engineer with a proven track record
           of driving
@@ -34,9 +34,9 @@
           hinterland, at home watching movies and reading books, or dancing the night away at a live gig.
         </div>
       </div>
-      <div class="border-b border-dotted my-5"/>
+      <hr class="border-dotted my-5"/>
       <Skills/>
-      <div class="border-b border-dotted my-5"/>
+      <hr class="border-dotted my-5"/>
       <div class="flex">
         <a href="https://www.linkedin.com/in/luke-boland-36110a5b/" class="mx-3">LinkedIn</a>
         <a href="https://github.com/furnapso/" class="mx-3">Github</a>
