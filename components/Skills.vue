@@ -4,8 +4,8 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
 </script>
 
 <template>
-  <div class="w-full min-h-48">
-    <div class="grid grid-cols-3 grid-rows-2 flex-grow">
+  <div class="w-full">
+    <div class="flex flex-col space-y-3 min-h-36">
       <div class="col-span-3 flex pb-2 items-center">
         <h1>Skills</h1>
         <label class="flex items-center cursor-pointer mx-5">
@@ -17,12 +17,9 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
         </label>
       </div>
       <span class="mb-2">Languages</span>
-      <span class="mb-2">Frameworks</span>
-      <span class="mb-2">Technologies</span>
-
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
-        <div class="flex flex-wrap items-center" v-if="icon">
+        <div class="flex flex-wrap items-center min-h-16" v-if="icon">
           <img src="../public/icons/Java.svg" class="max-h-8 m-1" alt="Java" title="Java"/>
           <img src="../public/icons/Python.svg" class="max-h-8 m-1" alt="Python" title="Python"/>
           <img src="../public/icons/JavaScript.svg" class="max-h-8 m-1" alt="JavaScript" title="JavaScript"/>
@@ -34,21 +31,19 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
           <img src="../public/icons/SQL.svg" class="max-h-8 m-1 invert" alt="SQL" title="SQL">
         </div>
 
-        <div class="flex flex-wrap items-center" v-else>
-          <ul class="columns-2 text-slate-400 text-sm">
-            <li>Java</li>
-            <li>Python</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>PowerShell</li>
-            <li>Bash</li>
-            <li>SQL</li>
-          </ul>
-        </div>
+        <ul class="text-slate-400 text-sm grid grid-cols-3" v-else>
+          <li>Java</li>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>Typescript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>PowerShell</li>
+          <li>Bash</li>
+          <li>SQL</li>
+        </ul>
       </transition-group>
-
+      <span class="mb-2">Frameworks</span>
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
         <div class="flex items-center" v-if="icon">
@@ -61,18 +56,17 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
           <img src="../public/icons/tailwind-css.svg" class="max-h-8 m-1" alt="Tailwind" title="Tailwind"/>
         </div>
 
-        <div class="flex flex-wrap items-center" v-else>
-          <ul class="columns-2 text-slate-400 text-sm">
-            <li>React</li>
-            <li>Vue.js</li>
-            <li>Nuxt.js</li>
-            <li>Spring / Spring Boot</li>
-            <li>FastAPI</li>
-            <li>Selenium</li>
-            <li>Tailwind CSS</li>
-          </ul>
-        </div>
+        <ul class="grid grid-cols-3 text-slate-400 text-sm" v-else>
+          <li>React</li>
+          <li>Vue.js</li>
+          <li>Nuxt.js</li>
+          <li>Spring / Spring Boot</li>
+          <li>FastAPI</li>
+          <li>Selenium</li>
+          <li>Tailwind CSS</li>
+        </ul>
       </transition-group>
+      <span class="mb-2">Technologies</span>
 
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
@@ -91,21 +85,19 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
           <img src="../public/icons/intellij.svg" class="max-h-8 m-1" alt="Intellij" title="Intellij"/>
         </div>
 
-        <div class="flex flex-wrap items-center" v-else>
-          <ul class="columns-2 text-slate-400 text-sm">
-            <li>Azure</li>
-            <li>Azure Devops</li>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Docker</li>
-            <li>Vite.js</li>
-            <li>Linux</li>
-            <li>Splunk</li>
-            <li>New Relic</li>
-            <li>Digital Ocean</li>
-            <li>Intellij IDEA</li>
-          </ul>
-        </div>
+        <ul class="grid grid-cols-3 text-slate-400 text-sm" v-else>
+          <li>Azure</li>
+          <li>Azure Devops</li>
+          <li>Git</li>
+          <li>Github</li>
+          <li>Docker</li>
+          <li>Vite.js</li>
+          <li>Linux</li>
+          <li>Splunk</li>
+          <li>New Relic</li>
+          <li>Digital Ocean</li>
+          <li>Intellij IDEA</li>
+        </ul>
       </transition-group>
     </div>
   </div>
