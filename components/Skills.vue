@@ -5,7 +5,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
 
 <template>
   <div class="w-full">
-    <div class="flex flex-col space-y-3 min-h-36">
+    <div class="flex flex-col space-y-3 min-h-36 md:grid md:grid-cols-3">
       <div class="col-span-3 flex pb-2 items-center">
         <h1>Skills</h1>
         <label class="flex items-center cursor-pointer mx-5">
@@ -19,7 +19,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
       <span class="mb-2">Languages</span>
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
-        <div class="flex flex-wrap items-center min-h-16" v-if="icon">
+        <div class="flex flex-wrap items-center min-h-16 md:row-start-3" v-if="icon">
           <img src="../public/icons/Java.svg" class="max-h-8 m-1" alt="Java" title="Java"/>
           <img src="../public/icons/Python.svg" class="max-h-8 m-1" alt="Python" title="Python"/>
           <img src="../public/icons/JavaScript.svg" class="max-h-8 m-1" alt="JavaScript" title="JavaScript"/>
@@ -31,7 +31,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
           <img src="../public/icons/SQL.svg" class="max-h-8 m-1 invert" alt="SQL" title="SQL">
         </div>
 
-        <ul class="text-slate-400 text-sm grid grid-cols-3" v-else>
+        <ul class="text-slate-400 text-sm grid grid-cols-3 md:row-start-3" v-else>
           <li>Java</li>
           <li>Python</li>
           <li>Javascript</li>
@@ -46,7 +46,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
       <span class="mb-2">Frameworks</span>
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
-        <div class="flex items-center" v-if="icon">
+        <div class="flex items-center md:row-start-3" v-if="icon">
           <img src="../public/icons/React.svg" class="max-h-8 m-1" alt="React" title="React"/>
           <img src="../public/icons/Vue.js.svg" class="max-h-8 m-1" alt="Vue.js" title="Vue.js"/>
           <img src="../public/icons/nuxtjs.svg" class="max-h-8 m-1" alt="Nuxt.js" title="Nuxt.js"/>
@@ -56,7 +56,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
           <img src="../public/icons/tailwind-css.svg" class="max-h-8 m-1" alt="Tailwind" title="Tailwind"/>
         </div>
 
-        <ul class="grid grid-cols-3 text-slate-400 text-sm" v-else>
+        <ul class="grid grid-cols-3 text-slate-400 text-sm md:row-start-3" v-else>
           <li>React</li>
           <li>Vue.js</li>
           <li>Nuxt.js</li>
@@ -70,7 +70,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
 
       <transition-group enter-from-class="opacity-0" enter-active-class="transition-all ease-in duration-600"
                         leave-from-class="absolute opacity-0" class="">
-        <div class="flex items-center flex-wrap" v-if="icon">
+        <div class="flex items-center flex-wrap md:row-start-3" v-if="icon">
           <img src="../public/icons/Azure.svg" class="max-h-8 m-1" alt="Azure" title="Azure"/>
           <img src="../public/icons/azure-devops.svg" class="max-h-8 m-1" alt="Azure Devops" title="Azure Devops"/>
           <img src="../public/icons/Git.svg" class="max-h-8 m-1" alt="Git" title="Git"/>
@@ -85,7 +85,7 @@ const toggleLabel = computed(() => icon.value ? "Icons" : "Text")
           <img src="../public/icons/intellij.svg" class="max-h-8 m-1" alt="Intellij" title="Intellij"/>
         </div>
 
-        <ul class="grid grid-cols-3 text-slate-400 text-sm" v-else>
+        <ul class="grid grid-cols-3 text-slate-400 text-sm md:row-start-3" v-else>
           <li>Azure</li>
           <li>Azure Devops</li>
           <li>Git</li>

@@ -3,7 +3,7 @@
 
 <template>
   <div
-      class="h-full w-full flex flex-col justify-center items-center text-slate-100 mx-auto animate__animated animate__fadeInDown">
+      class="h-full w-full flex flex-col justify-center items-center text-slate-100 md:w-1/2 mx-auto animate__animated animate__fadeInDown">
     <div class="p-5">
       <div class="">
         <img src="../public/profile_pic.png" alt="Profile" class="max-h-36 ml-2 rounded-2xl float-right"/>
